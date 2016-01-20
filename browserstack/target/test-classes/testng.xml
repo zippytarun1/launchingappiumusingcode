@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestSuite" verbose="1" >
+<test name="testGuru">
+<classes>
+<class name="com.snapdeal.webautomation.browserstack.search">
+</class>
+</classes>
+</test>
+<test name="testGuru1">
+<classes>
+<class name="com.snapdeal.webautomation.browserstack.menubaritems">
+</class>
+</classes>
+</test>
+</suite>

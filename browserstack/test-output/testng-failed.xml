@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" guice-stage="DEVELOPMENT" name="Failed suite [TestSuite]" parallel="classes">
+  <test name="testGuru(failed)" parallel="classes">
+    <classes>
+      <class name="com.snapdeal.webautomation.browserstack.search">
+        <methods>
+          <include name="setup"/>
+          <include name="urlformation_verification" invocation-numbers="1"/>
+          <include name="closeselenium"/>
+          <include name="contactus_form"/>
+          <include name="linktext"/>
+        </methods>
+      </class> <!-- com.snapdeal.webautomation.browserstack.search -->
+      <class name="com.snapdeal.webautomation.browserstack.menubaritems">
+        <methods>
+          <include name="click_automatemenuitem"/>
+          <include name="setup"/>
+          <include name="closeselenium"/>
+        </methods>
+      </class> <!-- com.snapdeal.webautomation.browserstack.menubaritems -->
+    </classes>
+  </test> <!-- testGuru(failed) -->
+</suite> <!-- Failed suite [TestSuite] -->
